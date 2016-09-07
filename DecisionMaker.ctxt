@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DecisionMaker()
+comment0.text=\ \n\ Constructs\ an\ object\ that\ chooses\ between\ "YES"\ and\ "NO"\ (with\ equal\ probability).\n
+comment1.params=yesP
+comment1.target=DecisionMaker(int)
+comment1.text=\ \n\ Constructs\ an\ object\ that\ chooses\ between\ "YES"\ and\ "NO"\ (with\ specified\ probabilities).\n\ \ \ @param\ yesP\ the\ expected\ probability\ that\ the\ answer\ is\ "YES"\n
+comment2.params=question
+comment2.target=java.lang.String\ getAnswer(java.lang.String)
+comment2.text=\n\ Returns\ a\ randomly\ selected\ answer.\n\ \ \ @param\ question\ the\ user's\ question\ (which\ is\ actually\ ignored)\n\ \ \ @return\ the\ response\ to\ that\ question\ ("YES"\ or\ "NO")\n
+comment3.params=
+comment3.target=double\ getYPercent()
+comment4.params=
+comment4.target=double\ getNPercent()
+comment5.params=
+comment5.target=java.lang.String\ checkStats()
+comment5.text=\n\ Checks\ whether\ the\ object\ is\ within\ 10%\ of\ the\ expected\ yes\ percentage.\ \n\ \ \ @return\ a\ String\ specifying\ whether\ the\ percentage\ of\ yesses\ reported\ so\ far\n\ \ \ \ \ \ \ \ \ \ \ is\ within\ 10%\ of\ the\ expected\ percentage\n
+numComments=6
